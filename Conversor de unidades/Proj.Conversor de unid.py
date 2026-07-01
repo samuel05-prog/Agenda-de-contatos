@@ -20,10 +20,10 @@ def comprimento():
         return valor * 1000
 
     def metros_cent(valor):
-        return valor / 100
+        return valor * 100
 
     def cent_metros(valor):
-        return valor * 100
+        return valor / 100
 
     while True:
         escolha = ler_int("Escolha uma opção: ")
